@@ -1,0 +1,10 @@
+body { background-color: #f4f6f9; display: flex; flex-direction: column; min-height: 100vh; }
+.card-service { transition: transform .15s ease; border: none; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+.card-service:hover { transform: translateY(-4px); }
+.slot-btn { margin: 3px; }
+.hero { background: linear-gradient(135deg,#0d6efd,#6610f2); color:#fff; border-radius: .5rem; padding: 3rem 2rem; }
+.stat-card { border-radius:.75rem; color:#fff; padding:1.25rem; }
+.badge-status-confirmed{background:#198754;}
+.badge-status-cancelled{background:#dc3545;}
+.badge-status-completed{background:#6c757d;}
+.badge-status-pending{background:#ffc107;color:#000;}
